@@ -76,6 +76,7 @@
             btnLogin.TabIndex = 4;
             btnLogin.Text = "Prijavi se";
             btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
             // 
             // Frm_Login
             // 
@@ -88,7 +89,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Frm_Login";
-            Text = "Form1";
+            Text = "Login";
             ResumeLayout(false);
             PerformLayout();
         }

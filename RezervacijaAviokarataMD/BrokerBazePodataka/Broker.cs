@@ -47,7 +47,45 @@ namespace BrokerBazePodataka
             return cmd;
         }
 
+        //SK8: Prijavi aviokompaniju
 
+        public Aviokompanija PrijaviAviokompanija(string korisnickoIme, string sifra)
+        {
+            try
+            {
+                string upit = "SELECT * FROM Aviokompanija WHERE korisnickoIme = @user AND sifra = @pass";
+                using SqlCommand cmd = new SqlCommand(upit, conn);
+                cmd.Parameters.AddWithValue("@user", korisnickoIme);
+                cmd.Parameters.AddWithValue("@pass", sifra);
+
+                using SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    Aviokompanija a = new Aviokompanija()
+                    {
+                        idAviokompanija = (long)reader["idAviokompanija"],
+                        Naziv = reader["Naziv"].ToString(),
+                        Email = reader["Email"].ToString(),
+                        korisnickoIme = reader["korisnickoIme"].ToString(),
+                        sifra = reader["sifra"].ToString()
+                    };
+
+                    return a;
+                }
+
+                else
+                {
+                    throw new Exception("Korisnicko ime i sifra nisu ispravni.");
+                }
+            }
+
+            catch (SqlException ex)
+            {
+                Console.WriteLine("Greska pri radu sa bazom!");
+                Console.WriteLine(ex.Message);
+                throw;
+            }
+        }
 
     }
 }

@@ -20,6 +20,24 @@ namespace PoslovnaLogika
             }
         }
 
+        //SK8: Prijavi aviokompaniju
 
+        public Aviokompanija PrijaviAviokompanija(string korisnickoIme, string sifra)
+        {
+            broker.Connect();
+            try
+            {
+                return broker.PrijaviAviokompanija(korisnickoIme, sifra);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw;
+            }
+            finally
+            {
+                broker.Disconnect();
+            }
+        }
     }
 }

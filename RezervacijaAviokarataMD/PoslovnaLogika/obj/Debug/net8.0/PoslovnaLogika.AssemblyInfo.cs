@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PoslovnaLogika")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a8551da64ad525190114c394c3208e36aee7a56")]
 [assembly: System.Reflection.AssemblyProductAttribute("PoslovnaLogika")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PoslovnaLogika")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

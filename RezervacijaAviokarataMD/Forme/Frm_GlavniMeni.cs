@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domen;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,11 @@ namespace Forme
 {
     public partial class Frm_GlavniMeni : Form
     {
-        public Frm_GlavniMeni()
+        private Aviokompanija prijavljena;
+        public Frm_GlavniMeni(Aviokompanija a)
         {
             InitializeComponent();
+            prijavljena = a;
         }
     }
 }
