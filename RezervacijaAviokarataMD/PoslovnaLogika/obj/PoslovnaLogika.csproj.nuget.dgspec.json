@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\PoslovnaLogika\\PoslovnaLogika.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\BrokerBazePodataka\\BrokerBazePodataka.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\BrokerBazePodataka\\BrokerBazePodataka.csproj",
+        "projectName": "BrokerBazePodataka",
+        "projectPath": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\BrokerBazePodataka\\BrokerBazePodataka.csproj",
+        "packagesPath": "C:\\Users\\Surdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\BrokerBazePodataka\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Surdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Domen.csproj": {
+                "projectPath": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Domen.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Domen.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Domen.csproj",
+        "projectName": "Domen",
+        "projectPath": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Domen.csproj",
+        "packagesPath": "C:\\Users\\Surdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Surdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\PoslovnaLogika\\PoslovnaLogika.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\PoslovnaLogika\\PoslovnaLogika.csproj",
+        "projectName": "PoslovnaLogika",
+        "projectPath": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\PoslovnaLogika\\PoslovnaLogika.csproj",
+        "packagesPath": "C:\\Users\\Surdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\PoslovnaLogika\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Surdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\BrokerBazePodataka\\BrokerBazePodataka.csproj": {
+                "projectPath": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\BrokerBazePodataka\\BrokerBazePodataka.csproj"
+              },
+              "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Domen.csproj": {
+                "projectPath": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Domen.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
