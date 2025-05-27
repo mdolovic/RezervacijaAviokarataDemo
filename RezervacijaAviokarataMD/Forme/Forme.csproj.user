@@ -4,7 +4,22 @@
     <Compile Update="Frm_GlavniMeni.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Frm_KreirajPutnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_KreirajRezervacija.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_PretragaPutnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_PretragaRezervacija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_UbaciDestinacija.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
