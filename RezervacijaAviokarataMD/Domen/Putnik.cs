@@ -8,5 +8,11 @@
         public string Kategorija { get; set; }
         public string BrojPasosa { get; set; }
         public Sediste Sediste { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Ime} {Prezime}"; 
+        }
+
     }
 }

@@ -7,5 +7,6 @@
         public long Cena { get; set; }
         public Aviokompanija Aviokompanija { get; set; }
         public Putnik Putnik { get; set; }
+        public List<StavkaRezervacije> Stavke { get; set; }
     }
 }

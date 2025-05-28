@@ -70,3 +70,8 @@ C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net
 C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net8.0-windows\Forme.pdb
 C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net8.0-windows\Forme.genruntimeconfig.cache
 C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net8.0-windows\ref\Forme.dll
+C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net8.0-windows\Forme.Frm_KreirajPutnik.resources
+C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net8.0-windows\Forme.Frm_KreirajRezervacija.resources
+C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net8.0-windows\Forme.Frm_PretragaPutnik.resources
+C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net8.0-windows\Forme.Frm_PretragaRezervacija.resources
+C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net8.0-windows\Forme.Frm_UbaciDestinacija.resources

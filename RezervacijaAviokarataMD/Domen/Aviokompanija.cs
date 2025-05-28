@@ -7,5 +7,6 @@
         public string Email { get; set; }
         public string korisnickoIme { get; set; }
         public string sifra { get; set; }
+        
     }
 }

@@ -30,12 +30,12 @@
         {
             menuStrip1 = new MenuStrip();
             rezervacijaToolStripMenuItem = new ToolStripMenuItem();
-            putnikToolStripMenuItem = new ToolStripMenuItem();
-            destinacijaToolStripMenuItem = new ToolStripMenuItem();
             kreirajRezervacijuToolStripMenuItem = new ToolStripMenuItem();
             pretragaRezervacijaToolStripMenuItem = new ToolStripMenuItem();
+            putnikToolStripMenuItem = new ToolStripMenuItem();
             kreirajPutnikaToolStripMenuItem = new ToolStripMenuItem();
             pretragaPutnikaToolStripMenuItem = new ToolStripMenuItem();
+            destinacijaToolStripMenuItem = new ToolStripMenuItem();
             dodajDestinacijuToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -57,12 +57,37 @@
             rezervacijaToolStripMenuItem.Size = new Size(98, 24);
             rezervacijaToolStripMenuItem.Text = "Rezervacija";
             // 
+            // kreirajRezervacijuToolStripMenuItem
+            // 
+            kreirajRezervacijuToolStripMenuItem.Name = "kreirajRezervacijuToolStripMenuItem";
+            kreirajRezervacijuToolStripMenuItem.Size = new Size(224, 26);
+            kreirajRezervacijuToolStripMenuItem.Text = "Kreiraj rezervaciju";
+            kreirajRezervacijuToolStripMenuItem.Click += kreirajRezervacijuToolStripMenuItem_Click;
+            // 
+            // pretragaRezervacijaToolStripMenuItem
+            // 
+            pretragaRezervacijaToolStripMenuItem.Name = "pretragaRezervacijaToolStripMenuItem";
+            pretragaRezervacijaToolStripMenuItem.Size = new Size(224, 26);
+            pretragaRezervacijaToolStripMenuItem.Text = "Pretraga rezervacija";
+            // 
             // putnikToolStripMenuItem
             // 
             putnikToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { kreirajPutnikaToolStripMenuItem, pretragaPutnikaToolStripMenuItem });
             putnikToolStripMenuItem.Name = "putnikToolStripMenuItem";
             putnikToolStripMenuItem.Size = new Size(63, 24);
             putnikToolStripMenuItem.Text = "Putnik";
+            // 
+            // kreirajPutnikaToolStripMenuItem
+            // 
+            kreirajPutnikaToolStripMenuItem.Name = "kreirajPutnikaToolStripMenuItem";
+            kreirajPutnikaToolStripMenuItem.Size = new Size(201, 26);
+            kreirajPutnikaToolStripMenuItem.Text = "Kreiraj putnika";
+            // 
+            // pretragaPutnikaToolStripMenuItem
+            // 
+            pretragaPutnikaToolStripMenuItem.Name = "pretragaPutnikaToolStripMenuItem";
+            pretragaPutnikaToolStripMenuItem.Size = new Size(201, 26);
+            pretragaPutnikaToolStripMenuItem.Text = "Pretraga putnika";
             // 
             // destinacijaToolStripMenuItem
             // 
@@ -71,34 +96,10 @@
             destinacijaToolStripMenuItem.Size = new Size(96, 24);
             destinacijaToolStripMenuItem.Text = "Destinacija";
             // 
-            // kreirajRezervacijuToolStripMenuItem
-            // 
-            kreirajRezervacijuToolStripMenuItem.Name = "kreirajRezervacijuToolStripMenuItem";
-            kreirajRezervacijuToolStripMenuItem.Size = new Size(224, 26);
-            kreirajRezervacijuToolStripMenuItem.Text = "Kreiraj rezervaciju";
-            // 
-            // pretragaRezervacijaToolStripMenuItem
-            // 
-            pretragaRezervacijaToolStripMenuItem.Name = "pretragaRezervacijaToolStripMenuItem";
-            pretragaRezervacijaToolStripMenuItem.Size = new Size(224, 26);
-            pretragaRezervacijaToolStripMenuItem.Text = "Pretraga rezervacija";
-            // 
-            // kreirajPutnikaToolStripMenuItem
-            // 
-            kreirajPutnikaToolStripMenuItem.Name = "kreirajPutnikaToolStripMenuItem";
-            kreirajPutnikaToolStripMenuItem.Size = new Size(224, 26);
-            kreirajPutnikaToolStripMenuItem.Text = "Kreiraj putnika";
-            // 
-            // pretragaPutnikaToolStripMenuItem
-            // 
-            pretragaPutnikaToolStripMenuItem.Name = "pretragaPutnikaToolStripMenuItem";
-            pretragaPutnikaToolStripMenuItem.Size = new Size(224, 26);
-            pretragaPutnikaToolStripMenuItem.Text = "Pretraga putnika";
-            // 
             // dodajDestinacijuToolStripMenuItem
             // 
             dodajDestinacijuToolStripMenuItem.Name = "dodajDestinacijuToolStripMenuItem";
-            dodajDestinacijuToolStripMenuItem.Size = new Size(224, 26);
+            dodajDestinacijuToolStripMenuItem.Size = new Size(208, 26);
             dodajDestinacijuToolStripMenuItem.Text = "Dodaj destinaciju";
             // 
             // Frm_GlavniMeni

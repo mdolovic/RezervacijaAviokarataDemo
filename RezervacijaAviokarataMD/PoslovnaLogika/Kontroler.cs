@@ -39,5 +39,78 @@ namespace PoslovnaLogika
                 broker.Disconnect();
             }
         }
+
+        //SK1: Kreiraj rezervaciju
+        public List<Aviokompanija> vratiListuSviAviokompanija()
+        {
+            broker.Connect();
+            try
+            {
+                return broker.vratiListuSviAviokompanija();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                broker.Disconnect();
+            }
+        }
+        public List<Putnik> vratiListuSviPutnik(Putnik p)
+        {
+            broker.Connect();
+            try
+            {
+                return broker.vratiListuSviPutnik(p);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                broker.Disconnect();
+            }
+        }
+        public List<Let> vratiListuSviLet()
+        {
+            broker.Connect();
+            try
+            {
+                return broker.vratiListuSviLet();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally { broker.Disconnect(); }
+        }
+        public long KreirajRezervacija(Rezervacija r)
+        {
+            broker.Connect();
+            try
+            {
+                return broker.KreirajRezervacija(r);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally { broker.Disconnect(); }
+        }
+        public List<StavkaRezervacije> vratiListuStavkeRezervacije(Rezervacija r)
+        {
+            broker.Connect();
+            try
+            {
+                return broker.vratiListuStavkeRezervacije(r);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally { broker.Disconnect(); }
+        }
     }
 }

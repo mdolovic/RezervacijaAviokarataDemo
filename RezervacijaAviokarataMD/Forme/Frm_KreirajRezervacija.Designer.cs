@@ -33,24 +33,24 @@
             txtOpis = new TextBox();
             cbPutnik = new ComboBox();
             groupBox1 = new GroupBox();
-            dgvStavkaRezervacije = new DataGridView();
-            lbLEt = new Label();
-            cbLet = new ComboBox();
-            label3 = new Label();
-            txtNazivStavke = new TextBox();
-            lbDa = new Label();
-            label4 = new Label();
-            dtpDatumOdlaska = new DateTimePicker();
-            dtpDatumDolaska = new DateTimePicker();
-            label5 = new Label();
-            numCenaStavke = new NumericUpDown();
             btnDodajStavku = new Button();
+            numCenaStavke = new NumericUpDown();
+            label5 = new Label();
+            dtpDatumDolaska = new DateTimePicker();
+            dtpDatumOdlaska = new DateTimePicker();
+            label4 = new Label();
+            lbDa = new Label();
+            txtNazivStavke = new TextBox();
+            label3 = new Label();
+            cbLet = new ComboBox();
+            lbLEt = new Label();
+            dgvStavkaRezervacije = new DataGridView();
             label6 = new Label();
             txtUkupnaCena = new TextBox();
             btnKreirajRezervaciju = new Button();
             groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvStavkaRezervacije).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numCenaStavke).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvStavkaRezervacije).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -85,6 +85,7 @@
             cbPutnik.Name = "cbPutnik";
             cbPutnik.Size = new Size(231, 28);
             cbPutnik.TabIndex = 3;
+            cbPutnik.SelectedIndexChanged += cbPutnik_SelectedIndexChanged;
             // 
             // groupBox1
             // 
@@ -107,79 +108,22 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Stavka rezervacije";
             // 
-            // dgvStavkaRezervacije
+            // btnDodajStavku
             // 
-            dgvStavkaRezervacije.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvStavkaRezervacije.Location = new Point(305, 65);
-            dgvStavkaRezervacije.Name = "dgvStavkaRezervacije";
-            dgvStavkaRezervacije.RowHeadersWidth = 51;
-            dgvStavkaRezervacije.Size = new Size(443, 256);
-            dgvStavkaRezervacije.TabIndex = 0;
+            btnDodajStavku.Location = new Point(611, 344);
+            btnDodajStavku.Name = "btnDodajStavku";
+            btnDodajStavku.Size = new Size(137, 29);
+            btnDodajStavku.TabIndex = 11;
+            btnDodajStavku.Text = "Dodaj stavku";
+            btnDodajStavku.UseVisualStyleBackColor = true;
+            btnDodajStavku.Click += btnDodajStavku_Click;
             // 
-            // lbLEt
+            // numCenaStavke
             // 
-            lbLEt.AutoSize = true;
-            lbLEt.Location = new Point(14, 42);
-            lbLEt.Name = "lbLEt";
-            lbLEt.Size = new Size(32, 20);
-            lbLEt.TabIndex = 1;
-            lbLEt.Text = "Let:";
-            // 
-            // cbLet
-            // 
-            cbLet.FormattingEnabled = true;
-            cbLet.Location = new Point(14, 65);
-            cbLet.Name = "cbLet";
-            cbLet.Size = new Size(250, 28);
-            cbLet.TabIndex = 2;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(14, 110);
-            label3.Name = "label3";
-            label3.Size = new Size(94, 20);
-            label3.TabIndex = 3;
-            label3.Text = "Naziv stavke:";
-            // 
-            // txtNazivStavke
-            // 
-            txtNazivStavke.Location = new Point(14, 133);
-            txtNazivStavke.Name = "txtNazivStavke";
-            txtNazivStavke.Size = new Size(250, 27);
-            txtNazivStavke.TabIndex = 4;
-            // 
-            // lbDa
-            // 
-            lbDa.AutoSize = true;
-            lbDa.Location = new Point(14, 187);
-            lbDa.Name = "lbDa";
-            lbDa.Size = new Size(112, 20);
-            lbDa.TabIndex = 5;
-            lbDa.Text = "Datum odlaska:";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(14, 261);
-            label4.Name = "label4";
-            label4.Size = new Size(112, 20);
-            label4.TabIndex = 6;
-            label4.Text = "Datum dolaska:";
-            // 
-            // dtpDatumOdlaska
-            // 
-            dtpDatumOdlaska.Location = new Point(14, 217);
-            dtpDatumOdlaska.Name = "dtpDatumOdlaska";
-            dtpDatumOdlaska.Size = new Size(250, 27);
-            dtpDatumOdlaska.TabIndex = 7;
-            // 
-            // dtpDatumDolaska
-            // 
-            dtpDatumDolaska.Location = new Point(14, 294);
-            dtpDatumDolaska.Name = "dtpDatumDolaska";
-            dtpDatumDolaska.Size = new Size(250, 27);
-            dtpDatumDolaska.TabIndex = 8;
+            numCenaStavke.Location = new Point(88, 346);
+            numCenaStavke.Name = "numCenaStavke";
+            numCenaStavke.Size = new Size(176, 27);
+            numCenaStavke.TabIndex = 10;
             // 
             // label5
             // 
@@ -190,21 +134,79 @@
             label5.TabIndex = 9;
             label5.Text = "Cena:";
             // 
-            // numCenaStavke
+            // dtpDatumDolaska
             // 
-            numCenaStavke.Location = new Point(88, 346);
-            numCenaStavke.Name = "numCenaStavke";
-            numCenaStavke.Size = new Size(176, 27);
-            numCenaStavke.TabIndex = 10;
+            dtpDatumDolaska.Location = new Point(14, 294);
+            dtpDatumDolaska.Name = "dtpDatumDolaska";
+            dtpDatumDolaska.Size = new Size(250, 27);
+            dtpDatumDolaska.TabIndex = 8;
             // 
-            // btnDodajStavku
+            // dtpDatumOdlaska
             // 
-            btnDodajStavku.Location = new Point(611, 344);
-            btnDodajStavku.Name = "btnDodajStavku";
-            btnDodajStavku.Size = new Size(137, 29);
-            btnDodajStavku.TabIndex = 11;
-            btnDodajStavku.Text = "Dodaj stavku";
-            btnDodajStavku.UseVisualStyleBackColor = true;
+            dtpDatumOdlaska.Location = new Point(14, 217);
+            dtpDatumOdlaska.Name = "dtpDatumOdlaska";
+            dtpDatumOdlaska.Size = new Size(250, 27);
+            dtpDatumOdlaska.TabIndex = 7;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(14, 261);
+            label4.Name = "label4";
+            label4.Size = new Size(112, 20);
+            label4.TabIndex = 6;
+            label4.Text = "Datum dolaska:";
+            // 
+            // lbDa
+            // 
+            lbDa.AutoSize = true;
+            lbDa.Location = new Point(14, 187);
+            lbDa.Name = "lbDa";
+            lbDa.Size = new Size(112, 20);
+            lbDa.TabIndex = 5;
+            lbDa.Text = "Datum odlaska:";
+            // 
+            // txtNazivStavke
+            // 
+            txtNazivStavke.Location = new Point(14, 133);
+            txtNazivStavke.Name = "txtNazivStavke";
+            txtNazivStavke.Size = new Size(250, 27);
+            txtNazivStavke.TabIndex = 4;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(14, 110);
+            label3.Name = "label3";
+            label3.Size = new Size(94, 20);
+            label3.TabIndex = 3;
+            label3.Text = "Naziv stavke:";
+            // 
+            // cbLet
+            // 
+            cbLet.FormattingEnabled = true;
+            cbLet.Location = new Point(14, 65);
+            cbLet.Name = "cbLet";
+            cbLet.Size = new Size(250, 28);
+            cbLet.TabIndex = 2;
+            // 
+            // lbLEt
+            // 
+            lbLEt.AutoSize = true;
+            lbLEt.Location = new Point(14, 42);
+            lbLEt.Name = "lbLEt";
+            lbLEt.Size = new Size(32, 20);
+            lbLEt.TabIndex = 1;
+            lbLEt.Text = "Let:";
+            // 
+            // dgvStavkaRezervacije
+            // 
+            dgvStavkaRezervacije.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvStavkaRezervacije.Location = new Point(305, 65);
+            dgvStavkaRezervacije.Name = "dgvStavkaRezervacije";
+            dgvStavkaRezervacije.RowHeadersWidth = 51;
+            dgvStavkaRezervacije.Size = new Size(443, 256);
+            dgvStavkaRezervacije.TabIndex = 0;
             // 
             // label6
             // 
@@ -231,6 +233,7 @@
             btnKreirajRezervaciju.TabIndex = 7;
             btnKreirajRezervaciju.Text = "Kreiraj";
             btnKreirajRezervaciju.UseVisualStyleBackColor = true;
+            btnKreirajRezervaciju.Click += btnKreirajRezervaciju_Click;
             // 
             // Frm_KreirajRezervacija
             // 
@@ -249,8 +252,8 @@
             Text = "Kreiraj Rezervaciju";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvStavkaRezervacije).EndInit();
             ((System.ComponentModel.ISupportInitialize)numCenaStavke).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvStavkaRezervacije).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
