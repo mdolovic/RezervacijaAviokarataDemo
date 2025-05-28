@@ -22,12 +22,15 @@ namespace Forme
 
         private void kreirajRezervacijuToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
-                Frm_KreirajRezervacija f = new Frm_KreirajRezervacija(aviokompanija, null);
-                f.ShowDialog();
-            
-            
-               
+            Frm_KreirajRezervacija f = new Frm_KreirajRezervacija(aviokompanija, null);
+            f.ShowDialog();
+
+        }
+
+        private void pretragaRezervacijaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_PretragaRezervacija f = new Frm_PretragaRezervacija();
+            f.ShowDialog();
         }
     }
 }

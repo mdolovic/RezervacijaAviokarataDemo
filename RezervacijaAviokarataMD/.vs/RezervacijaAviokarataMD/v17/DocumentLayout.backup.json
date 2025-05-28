@@ -3,88 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\forme\\frm_pretragarezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_pretragarezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C1609AD-7230-4C26-917D-EC426B91045B}|BrokerBazePodataka\\BrokerBazePodataka.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\brokerbazepodataka\\broker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C1609AD-7230-4C26-917D-EC426B91045B}|BrokerBazePodataka\\BrokerBazePodataka.csproj|solutionrelative:brokerbazepodataka\\broker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\forme\\frm_kreirajrezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_kreirajrezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\domen\\let.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|solutionrelative:domen\\let.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\domen\\putnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|solutionrelative:domen\\putnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\forme\\frm_kreirajrezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_kreirajrezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\forme\\frm_glavnimeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_glavnimeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51DB4147-3183-4EB0-85C0-F2AAF0F56B11}|PoslovnaLogika\\PoslovnaLogika.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\poslovnalogika\\kontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51DB4147-3183-4EB0-85C0-F2AAF0F56B11}|PoslovnaLogika\\PoslovnaLogika.csproj|solutionrelative:poslovnalogika\\kontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\domen\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|solutionrelative:domen\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\domen\\aviokompanija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|solutionrelative:domen\\aviokompanija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\forme\\frm_glavnimeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_glavnimeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\forme\\frm_ubacidestinacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_ubacidestinacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\forme\\frm_pretragaputnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_pretragaputnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\forme\\frm_kreirajputnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_kreirajputnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\forme\\frm_pretragarezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_pretragarezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\forme\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\forme\\frm_glavnimeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_glavnimeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\forme\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\domen\\prd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|solutionrelative:domen\\prd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\domen\\stavkarezervacije.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|solutionrelative:domen\\stavkarezervacije.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\domen\\sediste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|solutionrelative:domen\\sediste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\domen\\destinacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D71EDDF-C45D-4E02-A139-928620175498}|Domen\\Domen.csproj|solutionrelative:domen\\destinacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C1609AD-7230-4C26-917D-EC426B91045B}|BrokerBazePodataka\\BrokerBazePodataka.csproj|c:\\users\\surdu\\desktop\\milos ps\\demo\\rezervacijaaviokaratamd\\brokerbazepodataka\\brokerbazepodataka.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8C1609AD-7230-4C26-917D-EC426B91045B}|BrokerBazePodataka\\BrokerBazePodataka.csproj|solutionrelative:brokerbazepodataka\\brokerbazepodataka.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\forme\\frm_glavnimeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1667577C-AAD5-492D-A7D9-9EC9483667AA}|Forme\\Forme.csproj|solutionrelative:forme\\frm_glavnimeni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,259 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Aviokompanija.cs",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Aviokompanija.cs",
-              "RelativeDocumentMoniker": "Domen\\Aviokompanija.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Aviokompanija.cs",
-              "RelativeToolTip": "Domen\\Aviokompanija.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Frm_PretragaRezervacija.cs",
+              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_PretragaRezervacija.cs",
+              "RelativeDocumentMoniker": "Forme\\Frm_PretragaRezervacija.cs",
+              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_PretragaRezervacija.cs",
+              "RelativeToolTip": "Forme\\Frm_PretragaRezervacija.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:51:01.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Frm_GlavniMeni.cs",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_GlavniMeni.cs",
-              "RelativeDocumentMoniker": "Forme\\Frm_GlavniMeni.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_GlavniMeni.cs",
-              "RelativeToolTip": "Forme\\Frm_GlavniMeni.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwB0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T17:03:45.746Z",
+              "WhenOpened": "2025-05-28T16:18:05.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Broker.cs",
               "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\BrokerBazePodataka\\Broker.cs",
               "RelativeDocumentMoniker": "BrokerBazePodataka\\Broker.cs",
               "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\BrokerBazePodataka\\Broker.cs",
               "RelativeToolTip": "BrokerBazePodataka\\Broker.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAswO8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB8BAAAAAAAAAAAmwCEBAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T14:52:02.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Frm_KreirajRezervacija.cs",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_KreirajRezervacija.cs",
-              "RelativeDocumentMoniker": "Forme\\Frm_KreirajRezervacija.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_KreirajRezervacija.cs",
-              "RelativeToolTip": "Forme\\Frm_KreirajRezervacija.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAQwIUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:52:12.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Putnik.cs",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Putnik.cs",
-              "RelativeDocumentMoniker": "Domen\\Putnik.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Putnik.cs",
-              "RelativeToolTip": "Domen\\Putnik.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:14:05.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Let.cs",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Let.cs",
-              "RelativeDocumentMoniker": "Domen\\Let.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Let.cs",
-              "RelativeToolTip": "Domen\\Let.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:12:44.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Frm_KreirajRezervacija.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_KreirajRezervacija.cs",
-              "RelativeDocumentMoniker": "Forme\\Frm_KreirajRezervacija.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_KreirajRezervacija.cs [Design]",
-              "RelativeToolTip": "Forme\\Frm_KreirajRezervacija.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T12:54:34.826Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Kontroler.cs",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\PoslovnaLogika\\Kontroler.cs",
-              "RelativeDocumentMoniker": "PoslovnaLogika\\Kontroler.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\PoslovnaLogika\\Kontroler.cs",
-              "RelativeToolTip": "PoslovnaLogika\\Kontroler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwHIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:51:40.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Rezervacija.cs",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Rezervacija.cs",
-              "RelativeDocumentMoniker": "Domen\\Rezervacija.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Rezervacija.cs",
-              "RelativeToolTip": "Domen\\Rezervacija.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:14:22.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Frm_GlavniMeni.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_GlavniMeni.cs",
-              "RelativeDocumentMoniker": "Forme\\Frm_GlavniMeni.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_GlavniMeni.cs [Design]",
-              "RelativeToolTip": "Forme\\Frm_GlavniMeni.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:26:39.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Frm_UbaciDestinacija.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_UbaciDestinacija.cs",
-              "RelativeDocumentMoniker": "Forme\\Frm_UbaciDestinacija.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_UbaciDestinacija.cs [Design]",
-              "RelativeToolTip": "Forme\\Frm_UbaciDestinacija.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T12:57:10.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Frm_PretragaPutnik.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_PretragaPutnik.cs",
-              "RelativeDocumentMoniker": "Forme\\Frm_PretragaPutnik.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_PretragaPutnik.cs [Design]",
-              "RelativeToolTip": "Forme\\Frm_PretragaPutnik.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T12:56:41.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Frm_KreirajPutnik.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_KreirajPutnik.cs",
-              "RelativeDocumentMoniker": "Forme\\Frm_KreirajPutnik.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_KreirajPutnik.cs [Design]",
-              "RelativeToolTip": "Forme\\Frm_KreirajPutnik.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T12:56:21.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "Frm_PretragaRezervacija.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_PretragaRezervacija.cs",
               "RelativeDocumentMoniker": "Forme\\Frm_PretragaRezervacija.cs",
               "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_PretragaRezervacija.cs [Design]",
               "RelativeToolTip": "Forme\\Frm_PretragaRezervacija.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T12:55:10.528Z"
+              "WhenOpened": "2025-05-27T12:55:10.528Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Frm_Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_Login.cs",
-              "RelativeDocumentMoniker": "Forme\\Frm_Login.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_Login.cs [Design]",
-              "RelativeToolTip": "Forme\\Frm_Login.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Kontroler.cs",
+              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\PoslovnaLogika\\Kontroler.cs",
+              "RelativeDocumentMoniker": "PoslovnaLogika\\Kontroler.cs",
+              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\PoslovnaLogika\\Kontroler.cs",
+              "RelativeToolTip": "PoslovnaLogika\\Kontroler.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwHQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:21:58.655Z"
+              "WhenOpened": "2025-05-26T14:51:40.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Frm_Login.cs",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_Login.cs",
-              "RelativeDocumentMoniker": "Forme\\Frm_Login.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_Login.cs",
-              "RelativeToolTip": "Forme\\Frm_Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Frm_GlavniMeni.cs",
+              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_GlavniMeni.cs",
+              "RelativeDocumentMoniker": "Forme\\Frm_GlavniMeni.cs",
+              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_GlavniMeni.cs",
+              "RelativeToolTip": "Forme\\Frm_GlavniMeni.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAMwCAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T17:06:53.744Z"
+              "WhenOpened": "2025-05-26T17:03:45.746Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Destinacija.cs",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Destinacija.cs",
-              "RelativeDocumentMoniker": "Domen\\Destinacija.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Destinacija.cs",
-              "RelativeToolTip": "Domen\\Destinacija.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Frm_GlavniMeni.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_GlavniMeni.cs",
+              "RelativeDocumentMoniker": "Forme\\Frm_GlavniMeni.cs",
+              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Forme\\Frm_GlavniMeni.cs [Design]",
+              "RelativeToolTip": "Forme\\Frm_GlavniMeni.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:13:06.665Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Sediste.cs",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Sediste.cs",
-              "RelativeDocumentMoniker": "Domen\\Sediste.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\Sediste.cs",
-              "RelativeToolTip": "Domen\\Sediste.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:13:23.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "StavkaRezervacije.cs",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\StavkaRezervacije.cs",
-              "RelativeDocumentMoniker": "Domen\\StavkaRezervacije.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\StavkaRezervacije.cs",
-              "RelativeToolTip": "Domen\\StavkaRezervacije.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:13:43.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PrD.cs",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\PrD.cs",
-              "RelativeDocumentMoniker": "Domen\\PrD.cs",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\Domen\\PrD.cs",
-              "RelativeToolTip": "Domen\\PrD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:14:39.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BrokerBazePodataka.csproj",
-              "DocumentMoniker": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\BrokerBazePodataka\\BrokerBazePodataka.csproj",
-              "RelativeDocumentMoniker": "BrokerBazePodataka\\BrokerBazePodataka.csproj",
-              "ToolTip": "C:\\Users\\Surdu\\Desktop\\Milos Ps\\demo\\RezervacijaAviokarataMD\\BrokerBazePodataka\\BrokerBazePodataka.csproj",
-              "RelativeToolTip": "BrokerBazePodataka\\BrokerBazePodataka.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-26T14:52:47.926Z"
+              "WhenOpened": "2025-05-26T15:26:39.604Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },

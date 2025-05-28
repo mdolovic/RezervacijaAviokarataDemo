@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            cbAviokompanija = new ComboBox();
-            cbLet = new ComboBox();
-            cbPutnik = new ComboBox();
             btnPretraga = new Button();
+            cbPutnik = new ComboBox();
+            cbLet = new ComboBox();
+            cbAviokompanija = new ComboBox();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
             dgvRezervacija = new DataGridView();
             btnIzmeni = new Button();
             groupBox1.SuspendLayout();
@@ -58,23 +58,39 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Kriterijumi pretrage";
             // 
-            // label1
+            // btnPretraga
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(18, 36);
-            label1.Name = "label1";
-            label1.Size = new Size(112, 20);
-            label1.TabIndex = 0;
-            label1.Text = "Aviokompanija:";
+            btnPretraga.Location = new Point(475, 116);
+            btnPretraga.Name = "btnPretraga";
+            btnPretraga.Size = new Size(94, 29);
+            btnPretraga.TabIndex = 6;
+            btnPretraga.Text = "Pretrazi";
+            btnPretraga.UseVisualStyleBackColor = true;
+            btnPretraga.Click += btnPretraga_Click;
             // 
-            // label2
+            // cbPutnik
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(221, 36);
-            label2.Name = "label2";
-            label2.Size = new Size(32, 20);
-            label2.TabIndex = 1;
-            label2.Text = "Let:";
+            cbPutnik.FormattingEnabled = true;
+            cbPutnik.Location = new Point(418, 68);
+            cbPutnik.Name = "cbPutnik";
+            cbPutnik.Size = new Size(151, 28);
+            cbPutnik.TabIndex = 5;
+            // 
+            // cbLet
+            // 
+            cbLet.FormattingEnabled = true;
+            cbLet.Location = new Point(221, 68);
+            cbLet.Name = "cbLet";
+            cbLet.Size = new Size(151, 28);
+            cbLet.TabIndex = 4;
+            // 
+            // cbAviokompanija
+            // 
+            cbAviokompanija.FormattingEnabled = true;
+            cbAviokompanija.Location = new Point(18, 68);
+            cbAviokompanija.Name = "cbAviokompanija";
+            cbAviokompanija.Size = new Size(151, 28);
+            cbAviokompanija.TabIndex = 3;
             // 
             // label3
             // 
@@ -85,38 +101,23 @@
             label3.TabIndex = 2;
             label3.Text = "Putnik:";
             // 
-            // cbAviokompanija
+            // label2
             // 
-            cbAviokompanija.FormattingEnabled = true;
-            cbAviokompanija.Location = new Point(18, 68);
-            cbAviokompanija.Name = "cbAviokompanija";
-            cbAviokompanija.Size = new Size(151, 28);
-            cbAviokompanija.TabIndex = 3;
+            label2.AutoSize = true;
+            label2.Location = new Point(221, 36);
+            label2.Name = "label2";
+            label2.Size = new Size(32, 20);
+            label2.TabIndex = 1;
+            label2.Text = "Let:";
             // 
-            // cbLet
+            // label1
             // 
-            cbLet.FormattingEnabled = true;
-            cbLet.Location = new Point(221, 68);
-            cbLet.Name = "cbLet";
-            cbLet.Size = new Size(151, 28);
-            cbLet.TabIndex = 4;
-            // 
-            // cbPutnik
-            // 
-            cbPutnik.FormattingEnabled = true;
-            cbPutnik.Location = new Point(418, 68);
-            cbPutnik.Name = "cbPutnik";
-            cbPutnik.Size = new Size(151, 28);
-            cbPutnik.TabIndex = 5;
-            // 
-            // btnPretraga
-            // 
-            btnPretraga.Location = new Point(475, 116);
-            btnPretraga.Name = "btnPretraga";
-            btnPretraga.Size = new Size(94, 29);
-            btnPretraga.TabIndex = 6;
-            btnPretraga.Text = "Pretrazi";
-            btnPretraga.UseVisualStyleBackColor = true;
+            label1.AutoSize = true;
+            label1.Location = new Point(18, 36);
+            label1.Name = "label1";
+            label1.Size = new Size(112, 20);
+            label1.TabIndex = 0;
+            label1.Text = "Aviokompanija:";
             // 
             // dgvRezervacija
             // 

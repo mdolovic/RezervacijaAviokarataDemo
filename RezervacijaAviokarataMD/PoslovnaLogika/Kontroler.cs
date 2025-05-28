@@ -112,5 +112,20 @@ namespace PoslovnaLogika
             }
             finally { broker.Disconnect(); }
         }
+
+        //SK2: Pretraga rezervacije
+        public List<Rezervacija> vratiListuRezervacija(Rezervacija r)
+        {
+            broker.Connect();
+            try
+            {
+                return broker.vratiListuRezervacija(r);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally { broker.Disconnect(); }
+        }
     }
 }

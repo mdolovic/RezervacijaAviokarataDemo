@@ -69,6 +69,7 @@
             pretragaRezervacijaToolStripMenuItem.Name = "pretragaRezervacijaToolStripMenuItem";
             pretragaRezervacijaToolStripMenuItem.Size = new Size(224, 26);
             pretragaRezervacijaToolStripMenuItem.Text = "Pretraga rezervacija";
+            pretragaRezervacijaToolStripMenuItem.Click += pretragaRezervacijaToolStripMenuItem_Click;
             // 
             // putnikToolStripMenuItem
             // 

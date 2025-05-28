@@ -285,6 +285,79 @@ namespace BrokerBazePodataka
             }
         }
 
+        //SK2: Pretrazi rezervaciju
+
+        public List<Rezervacija> vratiListuRezervacija(Rezervacija r)
+        {
+            try
+            {
+                SqlCommand cmd = conn.CreateCommand();
+                cmd.CommandText = @"
+                            SELECT DISTINCT rez.idRezervacija, rez.Opis, rez.Cena, rez.idAviokompanija, rez.idPutnik,
+                                            p.Ime, p.Prezime, a.Naziv,
+                                            srb.idLet
+                            FROM Rezervacija rez
+                            JOIN Aviokompanija a ON rez.idAviokompanija = a.idAviokompanija
+                            JOIN Putnik p ON rez.idPutnik = p.idPutnik
+                            JOIN StavkaRezervacije srb ON srb.idRezervacija = rez.idRezervacija
+                            WHERE (@idPutnik IS NULL OR p.idPutnik = @idPutnik)
+                              AND (@idAvio IS NULL OR a.idAviokompanija = @idAvio)
+                              AND (@idLet IS NULL OR srb.idLet = @idLet)";
+
+                cmd.Parameters.AddWithValue("@idPutnik", r.Putnik == null ? DBNull.Value : r.Putnik.idPutnik);
+                cmd.Parameters.AddWithValue("@idAvio", r.Aviokompanija == null ? DBNull.Value : r.Aviokompanija.idAviokompanija);
+                cmd.Parameters.AddWithValue("@idLet", r.Stavke != null && r.Stavke.Count > 0 ? r.Stavke[0].Let.idLet : DBNull.Value);
+
+                List<Rezervacija> rezervacije = new List<Rezervacija>();
+                using SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Rezervacija rez = new Rezervacija
+                    {
+                        idRezervacija = reader.GetInt64(0),
+                        Opis = reader.GetString(1),
+                        Cena = reader.GetInt64(2),
+                        Aviokompanija = new Aviokompanija
+                        {
+                            idAviokompanija = reader.GetInt64(3),
+                            Naziv = reader.GetString(7)
+                        },
+                        Putnik = new Putnik
+                        {
+                            idPutnik = reader.GetInt64(4),
+                            Ime = reader.GetString(5),
+                            Prezime = reader.GetString(6)
+                        },
+                        Stavke = new List<StavkaRezervacije>
+                {
+                    new StavkaRezervacije
+                    {
+                        Let = new Let
+                        {
+                            idLet = reader.GetInt64(8)
+                        }
+                    }
+                }
+                    };
+
+                    rezervacije.Add(rez);
+                }
+
+                if (rezervacije.Count == 0)
+                {
+                    throw new Exception("Sistem ne može da pronađe rezervacije po zadatim kriterijumima.");
+                }
+
+                return rezervacije;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+
+
 
     }
 }
