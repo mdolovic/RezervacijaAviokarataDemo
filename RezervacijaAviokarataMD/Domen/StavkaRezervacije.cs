@@ -3,7 +3,7 @@
     public class StavkaRezervacije
     {
         public Rezervacija Rezervacija { get; set; }
-        public int rb { get; set; }
+        public long rb { get; set; }
         public string NazivStavke { get; set; }
         public Let Let { get; set; }
         public DateTime datumOdlaska { get; set; }

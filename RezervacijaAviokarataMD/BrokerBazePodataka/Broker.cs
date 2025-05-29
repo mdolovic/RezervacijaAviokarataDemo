@@ -295,7 +295,7 @@ namespace BrokerBazePodataka
                 cmd.CommandText = @"
                             SELECT DISTINCT rez.idRezervacija, rez.Opis, rez.Cena, rez.idAviokompanija, rez.idPutnik,
                                             p.Ime, p.Prezime, a.Naziv,
-                                            srb.idLet
+                                            srb.idLet, srb.rb
                             FROM Rezervacija rez
                             JOIN Aviokompanija a ON rez.idAviokompanija = a.idAviokompanija
                             JOIN Putnik p ON rez.idPutnik = p.idPutnik
@@ -329,15 +329,16 @@ namespace BrokerBazePodataka
                             Prezime = reader.GetString(6)
                         },
                         Stavke = new List<StavkaRezervacije>
-                {
-                    new StavkaRezervacije
-                    {
-                        Let = new Let
                         {
-                            idLet = reader.GetInt64(8)
+                            new StavkaRezervacije
+                            {
+                                Let = new Let
+                                {
+                                    idLet = reader.GetInt64(8)
+                                },
+                                rb =  reader.GetInt64(9)
+                            }
                         }
-                    }
-                }
                     };
 
                     rezervacije.Add(rez);

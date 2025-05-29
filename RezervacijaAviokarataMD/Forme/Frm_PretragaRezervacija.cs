@@ -61,7 +61,7 @@ namespace Forme
 
                 dgvRezervacija.DataSource = lista;
 
-                if (!dgvRezervacija.Columns.Contains("Let"))
+                if (!dgvRezervacija.Columns.Contains("Let") || !!dgvRezervacija.Columns.Contains("rb"))
                 {
                     DataGridViewTextBoxColumn colLet = new DataGridViewTextBoxColumn
                     {
@@ -69,6 +69,12 @@ namespace Forme
                         Name = "Let"
                     };
                     dgvRezervacija.Columns.Add(colLet);
+                    DataGridViewTextBoxColumn colrb = new DataGridViewTextBoxColumn
+                    {
+                        HeaderText = "rb",
+                        Name = "rb"
+                    };
+                    dgvRezervacija.Columns.Add(colrb);
                 }
 
                 foreach (DataGridViewRow row in dgvRezervacija.Rows)
@@ -76,6 +82,7 @@ namespace Forme
                     if (row.DataBoundItem is Rezervacija rez && rez.Stavke != null && rez.Stavke.Count > 0)
                     {
                         row.Cells["Let"].Value = rez.Stavke[0].Let;
+                        row.Cells["rb"].Value = rez.Stavke[0].rb;
                     }
                 }
             }
