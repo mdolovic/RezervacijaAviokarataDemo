@@ -402,6 +402,22 @@ namespace BrokerBazePodataka
             }
         }
 
+        //SK7: Dodaj destinaciju
+        public bool dodajDestinaciju(Destinacija d)
+        {
+            try
+            {
+                SqlCommand cmd = conn.CreateCommand();
+                cmd.CommandText = "INSERT INTO Destinacija (Naziv) VALUES (@naziv)";
+                cmd.Parameters.AddWithValue("@naziv", d.Naziv);
+                int result = cmd.ExecuteNonQuery();
+                return result > 0;
+            }
+            catch (Exception)
+            {
+                throw new Exception("Sistem ne može da doda destinaciju.");
+            }
+        }
 
     }
 }

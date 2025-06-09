@@ -1,5 +1,6 @@
 ﻿using BrokerBazePodataka;
 using Domen;
+using Microsoft.Data.SqlClient;
 
 namespace PoslovnaLogika
 {
@@ -140,5 +141,21 @@ namespace PoslovnaLogika
             }
             finally { broker.Disconnect(); }
         }
+
+        //SK7: Dodaj destinaciju
+        public bool dodajDestinaciju(Destinacija d)
+        {
+            broker.Connect();
+            try
+            {
+                return broker.dodajDestinaciju(d);
+            }
+            catch(Exception)
+            {
+                throw;
+            }
+            finally { broker.Disconnect(); }
+        }
+
     }
 }

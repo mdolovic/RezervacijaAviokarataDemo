@@ -32,5 +32,11 @@ namespace Forme
             Frm_PretragaRezervacija f = new Frm_PretragaRezervacija();
             f.ShowDialog();
         }
+
+        private void dodajDestinacijuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_UbaciDestinacija f = new Frm_UbaciDestinacija();
+            f.ShowDialog();
+        }
     }
 }

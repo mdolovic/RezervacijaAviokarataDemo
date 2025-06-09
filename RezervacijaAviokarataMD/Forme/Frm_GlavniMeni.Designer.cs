@@ -60,14 +60,14 @@
             // kreirajRezervacijuToolStripMenuItem
             // 
             kreirajRezervacijuToolStripMenuItem.Name = "kreirajRezervacijuToolStripMenuItem";
-            kreirajRezervacijuToolStripMenuItem.Size = new Size(224, 26);
+            kreirajRezervacijuToolStripMenuItem.Size = new Size(223, 26);
             kreirajRezervacijuToolStripMenuItem.Text = "Kreiraj rezervaciju";
             kreirajRezervacijuToolStripMenuItem.Click += kreirajRezervacijuToolStripMenuItem_Click;
             // 
             // pretragaRezervacijaToolStripMenuItem
             // 
             pretragaRezervacijaToolStripMenuItem.Name = "pretragaRezervacijaToolStripMenuItem";
-            pretragaRezervacijaToolStripMenuItem.Size = new Size(224, 26);
+            pretragaRezervacijaToolStripMenuItem.Size = new Size(223, 26);
             pretragaRezervacijaToolStripMenuItem.Text = "Pretraga rezervacija";
             pretragaRezervacijaToolStripMenuItem.Click += pretragaRezervacijaToolStripMenuItem_Click;
             // 
@@ -100,8 +100,9 @@
             // dodajDestinacijuToolStripMenuItem
             // 
             dodajDestinacijuToolStripMenuItem.Name = "dodajDestinacijuToolStripMenuItem";
-            dodajDestinacijuToolStripMenuItem.Size = new Size(208, 26);
+            dodajDestinacijuToolStripMenuItem.Size = new Size(224, 26);
             dodajDestinacijuToolStripMenuItem.Text = "Dodaj destinaciju";
+            dodajDestinacijuToolStripMenuItem.Click += dodajDestinacijuToolStripMenuItem_Click;
             // 
             // Frm_GlavniMeni
             // 
