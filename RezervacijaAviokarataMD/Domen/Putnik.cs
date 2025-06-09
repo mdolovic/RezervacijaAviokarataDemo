@@ -1,4 +1,6 @@
-﻿namespace Domen
+﻿using System.Collections.Generic;
+
+namespace Domen
 {
     public class Putnik
     {
@@ -9,9 +11,11 @@
         public string BrojPasosa { get; set; }
         public Sediste Sediste { get; set; }
 
+        public string PrikazPutnika => $"{Ime} {Prezime}";
+
         public override string ToString()
         {
-            return $"{Ime} {Prezime}"; 
+            return PrikazPutnika;
         }
 
     }

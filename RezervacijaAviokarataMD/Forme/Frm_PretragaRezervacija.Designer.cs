@@ -136,6 +136,7 @@
             btnIzmeni.TabIndex = 2;
             btnIzmeni.Text = "Izmeni";
             btnIzmeni.UseVisualStyleBackColor = true;
+            btnIzmeni.Click += btnIzmeni_Click;
             // 
             // Frm_PretragaRezervacija
             // 

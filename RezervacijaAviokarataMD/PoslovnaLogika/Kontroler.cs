@@ -127,5 +127,18 @@ namespace PoslovnaLogika
             }
             finally { broker.Disconnect(); }
         }
+        public void promeniRezervacija(Rezervacija r)
+        {
+            broker.Connect();
+            try
+            {
+                broker.promeniRezervacija(r);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally { broker.Disconnect(); }
+        }
     }
 }

@@ -295,11 +295,12 @@ namespace BrokerBazePodataka
                 cmd.CommandText = @"
                             SELECT DISTINCT rez.idRezervacija, rez.Opis, rez.Cena, rez.idAviokompanija, rez.idPutnik,
                                             p.Ime, p.Prezime, a.Naziv,
-                                            srb.idLet, srb.rb
+                                            srb.idLet, srb.rb, l.ModelAviona
                             FROM Rezervacija rez
                             JOIN Aviokompanija a ON rez.idAviokompanija = a.idAviokompanija
                             JOIN Putnik p ON rez.idPutnik = p.idPutnik
                             JOIN StavkaRezervacije srb ON srb.idRezervacija = rez.idRezervacija
+                            JOIN Let l ON l.idLet = srb.idLet
                             WHERE (@idPutnik IS NULL OR p.idPutnik = @idPutnik)
                               AND (@idAvio IS NULL OR a.idAviokompanija = @idAvio)
                               AND (@idLet IS NULL OR srb.idLet = @idLet)";
@@ -334,7 +335,8 @@ namespace BrokerBazePodataka
                             {
                                 Let = new Let
                                 {
-                                    idLet = reader.GetInt64(8)
+                                    idLet = reader.GetInt64(8),
+                                    ModelAviona = reader.GetString(10)
                                 },
                                 rb =  reader.GetInt64(9)
                             }
@@ -357,7 +359,48 @@ namespace BrokerBazePodataka
             }
         }
 
+        //SK3: Promeni rezervaciju
+        public void promeniRezervacija(Rezervacija r)
+        {
+            try
+            {
+                SqlCommand cmd = conn.CreateCommand();
+                cmd.CommandText = @"UPDATE Rezervacija 
+                            SET Opis = @opis, 
+                                Cena = @cena, 
+                                idPutnik = @idPutnik,
+                                idAviokompanija = @idAviokompanija
+                            WHERE idRezervacija = @id";
+                cmd.Parameters.AddWithValue("@opis", r.Opis);
+                cmd.Parameters.AddWithValue("@cena", r.Cena);
+                cmd.Parameters.AddWithValue("@idPutnik", r.Putnik.idPutnik);
+                cmd.Parameters.AddWithValue("@idAviokompanija", r.Aviokompanija.idAviokompanija);
+                cmd.Parameters.AddWithValue("@id", r.idRezervacija);
+                if (transaction != null) cmd.Transaction = transaction;
+                cmd.ExecuteNonQuery();
 
+                
+                if (r.Stavke != null)
+                {
+                    foreach (var s in r.Stavke)
+                    {
+                        SqlCommand cmdSt = conn.CreateCommand();
+                        cmdSt.CommandText = @"UPDATE StavkaRezervacije 
+                                      SET idLet = @idLet 
+                                      WHERE idRezervacija = @idRez AND rb = @rb";
+                        cmdSt.Parameters.AddWithValue("@idLet", s.Let.idLet);
+                        cmdSt.Parameters.AddWithValue("@idRez", r.idRezervacija);
+                        cmdSt.Parameters.AddWithValue("@rb", s.rb);
+                        if (transaction != null) cmdSt.Transaction = transaction;
+                        cmdSt.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
 
 
     }
