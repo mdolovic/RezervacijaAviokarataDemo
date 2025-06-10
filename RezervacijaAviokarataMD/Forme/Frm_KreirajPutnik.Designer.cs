@@ -94,6 +94,7 @@
             btnKreiraj.TabIndex = 5;
             btnKreiraj.Text = "Kreiraj";
             btnKreiraj.UseVisualStyleBackColor = true;
+            btnKreiraj.Click += btnKreiraj_Click;
             // 
             // txtIme
             // 

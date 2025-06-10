@@ -402,7 +402,7 @@ namespace BrokerBazePodataka
             }
         }
 
-        //SK7: Dodaj destinaciju
+        //SK21: Dodaj destinaciju
         public bool dodajDestinaciju(Destinacija d)
         {
             try
@@ -418,6 +418,43 @@ namespace BrokerBazePodataka
                 throw new Exception("Sistem ne može da doda destinaciju.");
             }
         }
+
+        //SK4: Kreiraj putnika
+        public List<Sediste> vratiListuSviSedista()
+        {
+            List<Sediste> lista = new List<Sediste>();
+            SqlCommand komanda = new SqlCommand("SELECT * FROM Sediste", conn);
+            SqlDataReader reader = komanda.ExecuteReader();
+
+            while (reader.Read())
+            {
+                Sediste s = new Sediste
+                {
+                    idSediste = (long)reader["idSediste"],
+                    Kategorija = reader["Kategorija"].ToString()
+                };
+                lista.Add(s);
+            }
+
+            reader.Close();
+            return lista;
+        }
+        public bool dodajPutnik(Putnik p)
+        {
+            SqlCommand komanda = new SqlCommand(@"INSERT INTO Putnik (Ime, Prezime, Kategorija, BrojPasosa, idSediste) 
+                                          VALUES (@Ime, @Prezime, @Kategorija, @BrojPasosa, @idSediste)", conn);
+
+            komanda.Parameters.AddWithValue("@Ime", p.Ime);
+            komanda.Parameters.AddWithValue("@Prezime", p.Prezime);
+            komanda.Parameters.AddWithValue("@Kategorija", p.Kategorija);
+            komanda.Parameters.AddWithValue("@BrojPasosa", p.BrojPasosa);
+            komanda.Parameters.AddWithValue("@idSediste", p.Sediste.idSediste);
+
+            return komanda.ExecuteNonQuery() > 0;
+        }
+
+
+
 
     }
 }

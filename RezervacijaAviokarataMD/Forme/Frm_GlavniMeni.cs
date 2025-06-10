@@ -38,5 +38,11 @@ namespace Forme
             Frm_UbaciDestinacija f = new Frm_UbaciDestinacija();
             f.ShowDialog();
         }
+
+        private void kreirajPutnikaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_KreirajPutnik f = new Frm_KreirajPutnik();
+            f.ShowDialog();
+        }
     }
 }

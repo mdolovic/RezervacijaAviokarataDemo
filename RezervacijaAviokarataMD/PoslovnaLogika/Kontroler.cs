@@ -142,7 +142,7 @@ namespace PoslovnaLogika
             finally { broker.Disconnect(); }
         }
 
-        //SK7: Dodaj destinaciju
+        //SK21: Dodaj destinaciju
         public bool dodajDestinaciju(Destinacija d)
         {
             broker.Connect();
@@ -151,6 +151,34 @@ namespace PoslovnaLogika
                 return broker.dodajDestinaciju(d);
             }
             catch(Exception)
+            {
+                throw;
+            }
+            finally { broker.Disconnect(); }
+        }
+        
+        //SK4: Dodaj putnikad
+        public List<Sediste> vratiListuSviSedista()
+        {
+            broker.Connect();
+            try
+            {
+                return broker.vratiListuSviSedista();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally { broker.Disconnect();}
+        }
+        public bool dodajPutnik(Putnik putnik)
+        {
+            broker.Connect();
+            try
+            {
+                return broker.dodajPutnik(putnik);
+            }
+            catch (Exception)
             {
                 throw;
             }

@@ -81,13 +81,14 @@
             // kreirajPutnikaToolStripMenuItem
             // 
             kreirajPutnikaToolStripMenuItem.Name = "kreirajPutnikaToolStripMenuItem";
-            kreirajPutnikaToolStripMenuItem.Size = new Size(201, 26);
+            kreirajPutnikaToolStripMenuItem.Size = new Size(224, 26);
             kreirajPutnikaToolStripMenuItem.Text = "Kreiraj putnika";
+            kreirajPutnikaToolStripMenuItem.Click += kreirajPutnikaToolStripMenuItem_Click;
             // 
             // pretragaPutnikaToolStripMenuItem
             // 
             pretragaPutnikaToolStripMenuItem.Name = "pretragaPutnikaToolStripMenuItem";
-            pretragaPutnikaToolStripMenuItem.Size = new Size(201, 26);
+            pretragaPutnikaToolStripMenuItem.Size = new Size(224, 26);
             pretragaPutnikaToolStripMenuItem.Text = "Pretraga putnika";
             // 
             // destinacijaToolStripMenuItem
@@ -100,7 +101,7 @@
             // dodajDestinacijuToolStripMenuItem
             // 
             dodajDestinacijuToolStripMenuItem.Name = "dodajDestinacijuToolStripMenuItem";
-            dodajDestinacijuToolStripMenuItem.Size = new Size(224, 26);
+            dodajDestinacijuToolStripMenuItem.Size = new Size(208, 26);
             dodajDestinacijuToolStripMenuItem.Text = "Dodaj destinaciju";
             dodajDestinacijuToolStripMenuItem.Click += dodajDestinacijuToolStripMenuItem_Click;
             // 
