@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            txtIme = new TextBox();
-            txtPrezime = new TextBox();
-            txtKategorija = new TextBox();
-            txtBrojPasosa = new TextBox();
-            cbSediste = new ComboBox();
             btnPretraga = new Button();
+            cbSediste = new ComboBox();
+            txtBrojPasosa = new TextBox();
+            txtKategorija = new TextBox();
+            txtPrezime = new TextBox();
+            txtIme = new TextBox();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
             dgvPutnici = new DataGridView();
             btnObrisi = new Button();
             Izmeni = new Button();
@@ -67,41 +67,51 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Kriterijumi za pretragu putnika";
             // 
-            // label1
+            // btnPretraga
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(19, 52);
-            label1.Name = "label1";
-            label1.Size = new Size(37, 20);
-            label1.TabIndex = 0;
-            label1.Text = "Ime:";
+            btnPretraga.Location = new Point(110, 304);
+            btnPretraga.Name = "btnPretraga";
+            btnPretraga.Size = new Size(94, 29);
+            btnPretraga.TabIndex = 10;
+            btnPretraga.Text = "Pretrazi";
+            btnPretraga.UseVisualStyleBackColor = true;
+            btnPretraga.Click += btnPretraga_Click;
             // 
-            // label2
+            // cbSediste
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(19, 99);
-            label2.Name = "label2";
-            label2.Size = new Size(65, 20);
-            label2.TabIndex = 1;
-            label2.Text = "Prezime:";
+            cbSediste.FormattingEnabled = true;
+            cbSediste.Location = new Point(128, 256);
+            cbSediste.Name = "cbSediste";
+            cbSediste.Size = new Size(168, 28);
+            cbSediste.TabIndex = 9;
             // 
-            // label3
+            // txtBrojPasosa
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(19, 150);
-            label3.Name = "label3";
-            label3.Size = new Size(81, 20);
-            label3.TabIndex = 2;
-            label3.Text = "Kategorija:";
+            txtBrojPasosa.Location = new Point(128, 197);
+            txtBrojPasosa.Name = "txtBrojPasosa";
+            txtBrojPasosa.Size = new Size(168, 27);
+            txtBrojPasosa.TabIndex = 8;
             // 
-            // label4
+            // txtKategorija
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(19, 204);
-            label4.Name = "label4";
-            label4.Size = new Size(89, 20);
-            label4.TabIndex = 3;
-            label4.Text = "Broj pasosa:";
+            txtKategorija.Location = new Point(128, 143);
+            txtKategorija.Name = "txtKategorija";
+            txtKategorija.Size = new Size(168, 27);
+            txtKategorija.TabIndex = 7;
+            // 
+            // txtPrezime
+            // 
+            txtPrezime.Location = new Point(128, 96);
+            txtPrezime.Name = "txtPrezime";
+            txtPrezime.Size = new Size(168, 27);
+            txtPrezime.TabIndex = 6;
+            // 
+            // txtIme
+            // 
+            txtIme.Location = new Point(128, 49);
+            txtIme.Name = "txtIme";
+            txtIme.Size = new Size(168, 27);
+            txtIme.TabIndex = 5;
             // 
             // label5
             // 
@@ -112,50 +122,41 @@
             label5.TabIndex = 4;
             label5.Text = "Sediste:";
             // 
-            // txtIme
+            // label4
             // 
-            txtIme.Location = new Point(128, 49);
-            txtIme.Name = "txtIme";
-            txtIme.Size = new Size(168, 27);
-            txtIme.TabIndex = 5;
+            label4.AutoSize = true;
+            label4.Location = new Point(19, 204);
+            label4.Name = "label4";
+            label4.Size = new Size(89, 20);
+            label4.TabIndex = 3;
+            label4.Text = "Broj pasosa:";
             // 
-            // txtPrezime
+            // label3
             // 
-            txtPrezime.Location = new Point(128, 96);
-            txtPrezime.Name = "txtPrezime";
-            txtPrezime.Size = new Size(168, 27);
-            txtPrezime.TabIndex = 6;
+            label3.AutoSize = true;
+            label3.Location = new Point(19, 150);
+            label3.Name = "label3";
+            label3.Size = new Size(81, 20);
+            label3.TabIndex = 2;
+            label3.Text = "Kategorija:";
             // 
-            // txtKategorija
+            // label2
             // 
-            txtKategorija.Location = new Point(128, 143);
-            txtKategorija.Name = "txtKategorija";
-            txtKategorija.Size = new Size(168, 27);
-            txtKategorija.TabIndex = 7;
+            label2.AutoSize = true;
+            label2.Location = new Point(19, 99);
+            label2.Name = "label2";
+            label2.Size = new Size(65, 20);
+            label2.TabIndex = 1;
+            label2.Text = "Prezime:";
             // 
-            // txtBrojPasosa
+            // label1
             // 
-            txtBrojPasosa.Location = new Point(128, 197);
-            txtBrojPasosa.Name = "txtBrojPasosa";
-            txtBrojPasosa.Size = new Size(168, 27);
-            txtBrojPasosa.TabIndex = 8;
-            // 
-            // cbSediste
-            // 
-            cbSediste.FormattingEnabled = true;
-            cbSediste.Location = new Point(128, 256);
-            cbSediste.Name = "cbSediste";
-            cbSediste.Size = new Size(168, 28);
-            cbSediste.TabIndex = 9;
-            // 
-            // btnPretraga
-            // 
-            btnPretraga.Location = new Point(110, 304);
-            btnPretraga.Name = "btnPretraga";
-            btnPretraga.Size = new Size(94, 29);
-            btnPretraga.TabIndex = 10;
-            btnPretraga.Text = "Pretrazi";
-            btnPretraga.UseVisualStyleBackColor = true;
+            label1.AutoSize = true;
+            label1.Location = new Point(19, 52);
+            label1.Name = "label1";
+            label1.Size = new Size(37, 20);
+            label1.TabIndex = 0;
+            label1.Text = "Ime:";
             // 
             // dgvPutnici
             // 

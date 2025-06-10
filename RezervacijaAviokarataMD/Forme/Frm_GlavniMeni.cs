@@ -44,5 +44,11 @@ namespace Forme
             Frm_KreirajPutnik f = new Frm_KreirajPutnik();
             f.ShowDialog();
         }
+
+        private void pretragaPutnikaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_PretragaPutnik f = new Frm_PretragaPutnik();
+            f.ShowDialog();
+        }
     }
 }

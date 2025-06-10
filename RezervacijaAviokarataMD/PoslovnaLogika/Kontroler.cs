@@ -150,14 +150,14 @@ namespace PoslovnaLogika
             {
                 return broker.dodajDestinaciju(d);
             }
-            catch(Exception)
+            catch (Exception)
             {
                 throw;
             }
             finally { broker.Disconnect(); }
         }
-        
-        //SK4: Dodaj putnikad
+
+        //SK4: Dodaj putnika
         public List<Sediste> vratiListuSviSedista()
         {
             broker.Connect();
@@ -169,7 +169,7 @@ namespace PoslovnaLogika
             {
                 throw;
             }
-            finally { broker.Disconnect();}
+            finally { broker.Disconnect(); }
         }
         public bool dodajPutnik(Putnik putnik)
         {
@@ -183,6 +183,22 @@ namespace PoslovnaLogika
                 throw;
             }
             finally { broker.Disconnect(); }
+        }
+
+        //SK5: Pretrazi putnika
+        public List<Putnik> vratiPutnikePoKriterijumu(Putnik kriterijum)
+        {
+            broker.Connect();
+            try
+            {
+                return broker.vratiPutnikePoKriterijumu(kriterijum);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally { broker.Disconnect(); }
+
         }
 
     }

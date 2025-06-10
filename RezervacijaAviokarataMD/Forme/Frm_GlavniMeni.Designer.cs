@@ -90,6 +90,7 @@
             pretragaPutnikaToolStripMenuItem.Name = "pretragaPutnikaToolStripMenuItem";
             pretragaPutnikaToolStripMenuItem.Size = new Size(224, 26);
             pretragaPutnikaToolStripMenuItem.Text = "Pretraga putnika";
+            pretragaPutnikaToolStripMenuItem.Click += pretragaPutnikaToolStripMenuItem_Click;
             // 
             // destinacijaToolStripMenuItem
             // 

@@ -1,6 +1,7 @@
 ﻿using Domen;
 using System;
 using Microsoft.Data.SqlClient;
+using System.Text;
 
 namespace BrokerBazePodataka
 {
@@ -286,7 +287,6 @@ namespace BrokerBazePodataka
         }
 
         //SK2: Pretrazi rezervaciju
-
         public List<Rezervacija> vratiListuRezervacija(Rezervacija r)
         {
             try
@@ -453,6 +453,75 @@ namespace BrokerBazePodataka
             return komanda.ExecuteNonQuery() > 0;
         }
 
+        //SK5: Pretrazi putnika
+        public List<Putnik> vratiPutnikePoKriterijumu(Putnik kriterijum)
+        {
+            List<Putnik> rezultat = new List<Putnik>();
+
+            StringBuilder upit = new StringBuilder(@"
+                SELECT p.idPutnik, p.Ime, p.Prezime, p.Kategorija, p.BrojPasosa, p.idSediste,
+                       s.Kategorija AS KategorijaSedista
+                FROM Putnik p
+                JOIN Sediste s ON p.idSediste = s.idSediste
+                WHERE 1 = 1 ");
+
+            SqlCommand komanda = new SqlCommand();
+            komanda.Connection = conn;
+
+            if (!string.IsNullOrWhiteSpace(kriterijum.Ime))
+            {
+                upit.Append("AND p.Ime LIKE @Ime ");
+                komanda.Parameters.AddWithValue("@Ime", "%" + kriterijum.Ime + "%");
+            }
+            if (!string.IsNullOrWhiteSpace(kriterijum.Prezime))
+            {
+                upit.Append("AND p.Prezime LIKE @Prezime ");
+                komanda.Parameters.AddWithValue("@Prezime", "%" + kriterijum.Prezime + "%");
+            }
+            if (!string.IsNullOrWhiteSpace(kriterijum.Kategorija))
+            {
+                upit.Append("AND p.Kategorija LIKE @Kategorija ");
+                komanda.Parameters.AddWithValue("@Kategorija", "%" + kriterijum.Kategorija + "%");
+            }
+            if (!string.IsNullOrWhiteSpace(kriterijum.BrojPasosa))
+            {
+                upit.Append("AND p.BrojPasosa LIKE @BrojPasosa ");
+                komanda.Parameters.AddWithValue("@BrojPasosa", "%" + kriterijum.BrojPasosa + "%");
+            }
+            if (kriterijum.Sediste != null && kriterijum.Sediste.idSediste > 0)
+            {
+                upit.Append("AND p.idSediste = @idSediste ");
+                komanda.Parameters.AddWithValue("@idSediste", kriterijum.Sediste.idSediste);
+            }
+
+            komanda.CommandText = upit.ToString();
+
+            using (SqlDataReader reader = komanda.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    Sediste s = new Sediste
+                    {
+                        idSediste = (long)reader["idSediste"],
+                        Kategorija = reader["KategorijaSedista"].ToString()
+                    };
+
+                    Putnik p = new Putnik
+                    {
+                        idPutnik = (long)reader["idPutnik"],
+                        Ime = reader["Ime"].ToString(),
+                        Prezime = reader["Prezime"].ToString(),
+                        Kategorija = reader["Kategorija"].ToString(),
+                        BrojPasosa = reader["BrojPasosa"].ToString(),
+                        Sediste = s
+                    };
+
+                    rezultat.Add(p);
+                }
+            }
+
+            return rezultat;
+        }
 
 
 
