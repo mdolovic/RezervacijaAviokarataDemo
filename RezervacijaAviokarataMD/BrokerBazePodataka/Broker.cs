@@ -523,6 +523,15 @@ namespace BrokerBazePodataka
             return rezultat;
         }
 
+        //SK7: Obrisi putnika
+        public bool obrisiPutnika(Putnik p)
+        {
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = "DELETE FROM Putnik WHERE idPutnik = @id";
+            cmd.Parameters.AddWithValue("@id", p.idPutnik);
+
+            return cmd.ExecuteNonQuery() > 0;
+        }
 
 
     }

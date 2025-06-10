@@ -95,5 +95,48 @@ namespace Forme
                 MessageBox.Show("Greška: " + ex.Message, "Greška", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnObrisi_Click(object sender, EventArgs e)
+        {
+            if (dgvPutnici.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Morate selektovati putnika za brisanje.", "Upozorenje", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            var red = dgvPutnici.SelectedRows[0];
+            if (red.DataBoundItem is Putnik putnik)
+            {
+                var potvrda = MessageBox.Show("Da li ste sigurni da želite da obrišete ovog putnika?", "Potvrda", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (potvrda == DialogResult.Yes)
+                {
+                    try
+                    {
+                        
+                        bool uspesno = Kontroler.Instance.obrisiPutnika(putnik);
+
+                        if (uspesno)
+                        {
+                            MessageBox.Show("Putnik uspešno obrisan.", "Uspeh", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            btnPretraga.PerformClick();
+                            txtIme.Clear();
+                            txtPrezime.Clear();
+                            txtKategorija.Clear();
+                            txtBrojPasosa.Clear();
+                            cbSediste.SelectedIndex = -1;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Putnik nije obrisan.", "Greška", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Greška pri brisanju putnika: " + ex.Message, "Izuzetak", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+        }
+
     }
 }

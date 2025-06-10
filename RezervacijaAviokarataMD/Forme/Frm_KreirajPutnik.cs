@@ -41,7 +41,11 @@ namespace Forme
                 if (uspesno)
                 {
                     MessageBox.Show("Putnik uspešno kreiran.", "Uspeh", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Close();
+                    txtIme.Clear();
+                    txtPrezime.Clear();
+                    txtKategorija.Clear();
+                    txtBrojPasosa.Clear();
+                    cbSediste.SelectedIndex = -1;
                 }
                 else
                 {

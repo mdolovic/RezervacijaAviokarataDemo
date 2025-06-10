@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrokerBazePodataka")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af490b72e8fe0562bfd8a7a3b83a03c2c76d8ebe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7924b0246544ac9c3bfd8b29b6b59ef7d94e885e")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrokerBazePodataka")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrokerBazePodataka")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -201,5 +201,20 @@ namespace PoslovnaLogika
 
         }
 
+        //SK7: Obrisi putnika
+        public bool obrisiPutnika(Putnik p)
+        {
+            broker.Connect();
+            try
+            {
+                return broker.obrisiPutnika(p);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally { broker.Disconnect(); }
+        }
+
     }
 }
