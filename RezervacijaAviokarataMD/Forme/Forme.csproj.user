@@ -19,6 +19,9 @@
     <Compile Update="Frm_PretragaRezervacija.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Frm_PromeniPutnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Frm_UbaciDestinacija.cs">
       <SubType>Form</SubType>
     </Compile>

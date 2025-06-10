@@ -183,8 +183,9 @@
             Izmeni.Name = "Izmeni";
             Izmeni.Size = new Size(146, 51);
             Izmeni.TabIndex = 3;
-            Izmeni.Text = "Izmeni";
+            Izmeni.Text = "Detalji";
             Izmeni.UseVisualStyleBackColor = true;
+            Izmeni.Click += Izmeni_Click;
             // 
             // Frm_PretragaPutnik
             // 

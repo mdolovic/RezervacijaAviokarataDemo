@@ -533,6 +533,36 @@ namespace BrokerBazePodataka
             return cmd.ExecuteNonQuery() > 0;
         }
 
+        //SK6: Izmeni putnika
+        public bool izmeniPutnika(Putnik p)
+        {
+            try
+            {
+                SqlCommand komanda = conn.CreateCommand();
+                komanda.CommandText = @"UPDATE Putnik 
+                                SET Ime = @Ime, 
+                                    Prezime = @Prezime, 
+                                    Kategorija = @Kategorija, 
+                                    BrojPasosa = @BrojPasosa, 
+                                    idSediste = @idSediste 
+                                WHERE idPutnik = @idPutnik";
+
+                komanda.Parameters.AddWithValue("@Ime", p.Ime);
+                komanda.Parameters.AddWithValue("@Prezime", p.Prezime);
+                komanda.Parameters.AddWithValue("@Kategorija", p.Kategorija);
+                komanda.Parameters.AddWithValue("@BrojPasosa", p.BrojPasosa);
+                komanda.Parameters.AddWithValue("@idSediste", p.Sediste.idSediste);
+                komanda.Parameters.AddWithValue("@idPutnik", p.idPutnik);
+
+                return komanda.ExecuteNonQuery() > 0;
+            }
+            catch (Exception)
+            {
+                throw new Exception("Sistem ne može da izmeni podatke o putniku.");
+            }
+        }
+
+
 
     }
 }

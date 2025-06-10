@@ -216,5 +216,19 @@ namespace PoslovnaLogika
             finally { broker.Disconnect(); }
         }
 
+        //SK6: Promeni putnika
+        public bool izmeniPutnika(Putnik putnik)
+        {
+            broker.Connect();
+            try
+            {
+                return broker.izmeniPutnika(putnik);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally { broker.Disconnect(); }
+        }
     }
 }

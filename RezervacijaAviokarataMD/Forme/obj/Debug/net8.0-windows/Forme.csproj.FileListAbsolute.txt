@@ -75,3 +75,4 @@ C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net
 C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net8.0-windows\Forme.Frm_PretragaPutnik.resources
 C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net8.0-windows\Forme.Frm_PretragaRezervacija.resources
 C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net8.0-windows\Forme.Frm_UbaciDestinacija.resources
+C:\Users\Surdu\Desktop\Milos Ps\demo\RezervacijaAviokarataMD\Forme\obj\Debug\net8.0-windows\Forme.Frm_PromeniPutnik.resources

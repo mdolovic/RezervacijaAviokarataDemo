@@ -112,7 +112,7 @@ namespace Forme
                 {
                     try
                     {
-                        
+
                         bool uspesno = Kontroler.Instance.obrisiPutnika(putnik);
 
                         if (uspesno)
@@ -138,5 +138,23 @@ namespace Forme
             }
         }
 
+        private void Izmeni_Click(object sender, EventArgs e)
+        {
+            if (dgvPutnici.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Morate selektovati putnika za izmenu.", "Upozorenje", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            var red = dgvPutnici.SelectedRows[0];
+            if (red.DataBoundItem is Putnik putnik)
+            {
+                Frm_PromeniPutnik f = new Frm_PromeniPutnik(putnik);
+                if (f.ShowDialog() == DialogResult.OK)
+                {
+                    btnPretraga.PerformClick();
+                }
+            }
+        }
     }
 }
